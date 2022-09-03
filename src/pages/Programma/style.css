@@ -1,7 +1,30 @@
+.programma.screen {
+  padding-bottom: 1rem;
+}
+
 .programma-wrapper {
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 .programma-wrapper > img {
   width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .programma-wrapper {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .programma-wrapper {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .programma-wrapper {
+    width: 40%;
+  }
 }
