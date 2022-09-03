@@ -21,7 +21,7 @@ const Home: React.FC = () => {
       },
       {
         text: "Il programma",
-        onClick: () => console.log("pressed"),
+        onClick: () => navigate("programma"),
         svg: <img src={programma} alt="programma" />,
       },
       {

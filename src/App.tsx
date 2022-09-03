@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import Home from "./pages/Home";
 import Post from "./pages/Post";
+import Programma from "./pages/Programma";
 import Storia from "./pages/Storia";
 
 const App: React.FC = () => {
@@ -11,6 +12,7 @@ const App: React.FC = () => {
         <Route path="/" element={<Outlet />}>
           <Route index element={<Home />} />
           <Route path="dicci-la-tua" element={<Post />} />
+          <Route path="programma" element={<Programma />} />
           <Route path="storia" element={<Storia />} />
         </Route>
       </Routes>
