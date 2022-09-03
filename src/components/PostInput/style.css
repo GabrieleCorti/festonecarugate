@@ -1,0 +1,48 @@
+.post-input {
+  width: 265px;
+  border-radius: 30px;
+  background-color: #9caecb;
+  padding-top: 1.12rem;
+  position: relative;
+}
+
+.post-input_icon {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.post-input_title {
+  color: white;
+  font-weight: normal;
+  font-size: 1rem;
+  margin: 0 auto 1rem auto;
+  width: 85%;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.post-input_input-wrapper,
+.post-input_input-wrapper > textarea {
+  background-color: white;
+}
+
+.post-input_input-wrapper {
+  padding: 10px;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 100%;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+.post-input_input-wrapper > textarea {
+  width: 255px;
+  height: 245px;
+  border: none;
+  resize: none;
+}
+
+.post-input_input-wrapper > textarea:focus {
+  outline: none;
+}

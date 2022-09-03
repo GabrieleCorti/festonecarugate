@@ -1,0 +1,11 @@
+.action {
+  justify-content: center;
+}
+
+.action:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+.actions-wrapper {
+  margin-top: 4.5rem;
+}

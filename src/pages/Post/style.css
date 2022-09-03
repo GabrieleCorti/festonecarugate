@@ -1,0 +1,21 @@
+.post-section-title {
+  color: white;
+  margin: 1.88rem 0;
+}
+
+.invia-button-wrapper {
+  margin-top: 1rem;
+}
+
+.overlay-invio {
+  text-align: center;
+  width: 100%;
+}
+
+.overlay-invio > h2 {
+  color: white;
+}
+
+.link-container {
+  margin-top: 1rem;
+}

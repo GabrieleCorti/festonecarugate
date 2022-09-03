@@ -1,0 +1,30 @@
+.section-title {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.info {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.info:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+.info-container {
+  margin-top: 1.5rem;
+  text-align: center;
+  padding: 0 5%;
+}
+
+.no-cursor {
+  cursor: auto;
+}
+
+.no-cursor.first {
+  margin-top: 2rem;
+}

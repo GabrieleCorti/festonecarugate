@@ -1,0 +1,32 @@
+.button-wrapper {
+  position: relative;
+}
+
+.svg {
+  position: absolute;
+  top: -19px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.main-button {
+  background-color: #9cafcb;
+  border-radius: 100px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
+  padding: 1.25rem 4.5rem;
+  border: none;
+  min-width: 250px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.small {
+  padding: 0.5rem 2rem;
+  min-width: fit-content;
+  width: fit-content;
+}
+
+.disable {
+  opacity: 0.8;
+}

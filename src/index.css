@@ -1,13 +1,79 @@
-body {
+@font-face {
+  font-family: "inriaSans";
+  src: url("./fonts/InriaSans-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "inriaSans";
+  font-style: italic;
+  src: url("./fonts/InriaSans-Italic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "inriaSans";
+  font-weight: bold;
+  src: url("./fonts/InriaSans-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "inriaSans";
+  font-weight: 400;
+  font-style: italic;
+  src: url("./fonts/InriaSans-LightItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "inriaSans";
+  font-weight: bold;
+  src: url("./fonts/InriaSans-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "inriaSans";
+  font-weight: bold;
+  font-style: italic;
+  src: url("./fonts/InriaSans-BoldItalic.otf") format("opentype");
+}
+
+:root {
+  font-family: "inriaSans", Helvetica, Arial, sans-serif;
+  --main-color: #9cafcb;
+  --over-color: #7c8ea9;
+  --text-color: #fff;
+}
+
+input,
+textarea {
+  font-family: "inriaSans", Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+}
+
+body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-white {
+  color: var(--text-color);
+}
+
+.full-w {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
 }
