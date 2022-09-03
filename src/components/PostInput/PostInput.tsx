@@ -18,18 +18,20 @@ const PostInput: React.FC<PostInputProps> = ({
     <div className="post-input">
       {icon && <div className="post-input_icon">{icon}</div>}
       <h2 className="post-input_title">{title}</h2>
-      <div>
+      <div className="post-input_input-wrapper top">
         <input
           type="text"
           name=""
           id=""
           onChange={(e) => onChangeName?.(e.target.value)}
+          placeholder="Nome"
         />
       </div>
       <div className="post-input_input-wrapper">
         <textarea
           maxLength={255}
           onChange={(e) => onChangeText?.(e.target.value)}
+          placeholder="Dicci la tua"
         />
       </div>
     </div>

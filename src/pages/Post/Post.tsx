@@ -85,7 +85,7 @@ const Post: React.FC = () => {
             </>
           )}
           <div className="link-container">
-            <Link style={{ color: "white" }} to={"/"}>
+            <Link className="main-button" style={{ color: "white" }} to={"/"}>
               Torna a home
             </Link>
           </div>

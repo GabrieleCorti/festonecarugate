@@ -43,6 +43,18 @@
   resize: none;
 }
 
-.post-input_input-wrapper > textarea:focus {
+.post-input_input-wrapper > input {
+  width: 255px;
+  height: 1.5rem;
+  border: none;
+  resize: none;
+}
+
+.post-input_input-wrapper.top {
+  margin-bottom: 1rem;
+}
+
+.post-input_input-wrapper > textarea:focus,
+.post-input_input-wrapper > input:focus {
   outline: none;
 }
