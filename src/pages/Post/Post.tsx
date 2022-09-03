@@ -11,7 +11,7 @@ import { TailSpin } from "react-loader-spinner";
 import "./style.css";
 
 const sleep = () =>
-  new Promise<void>((resolve) => setTimeout(() => resolve(), 3000));
+  new Promise<void>((resolve) => setTimeout(() => resolve(), 1000));
 
 const Post: React.FC = () => {
   const [post, setPost] = useState({
@@ -56,7 +56,7 @@ const Post: React.FC = () => {
             onClick={async () => {
               setLoading(true);
               try {
-                /*  await postMessage(post); */
+                await postMessage(post);
                 await sleep();
               } catch (error) {
                 setError(true);
