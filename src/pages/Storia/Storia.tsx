@@ -116,7 +116,11 @@ const Storia: React.FC = () => {
         </div>
       </div>
       <div className="link-wrapper" style={{ marginBottom: "2rem" }}>
-        <a href="https://www.parrocchiacarugate.it/festone-2022">
+        <a
+          href="https://www.parrocchiacarugate.it/festone-2022"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           www.parrocchiacarugate.it/festone-2022
         </a>
       </div>
